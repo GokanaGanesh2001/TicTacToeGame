@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:rgb(11, 11, 11);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 5%;
+    
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    background-color: blanchedalmond;
+}
+
+.difficulty {
+    margin-top: 20px;
+    color: rgb(234, 36, 14);
+    font-weight: 600;
+    
+    
+}
+#difficulty{
+    color: rgb(11, 11, 10);
+    font-weight: 600;
+    background-color: blanchedalmond;
+}
+
+.bt{
+      color: rgb(11, 11, 10);
+    font-weight: 600;
+    background-color: blanchedalmond;
+
+}
+/* Add styles for status messages */
+#status {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.win-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ai-win {
+    color: #ff0000; /* Red color for AI win message */
+}
+
+.human-win {
+    color: #008000; /* Green color for Human win message */
+}
+
+.draw {
+    color: #0000ff; /* Blue color for draw message */
+}
+
+.turn-message {
+    font-weight: bold;
+}

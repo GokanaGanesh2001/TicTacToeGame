@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="TTT.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="board" class="board">
+        <button class="cell" onclick="makeMove(0, 0)"></button>
+        <button class="cell" onclick="makeMove(0, 1)"></button>
+        <button class="cell" onclick="makeMove(0, 2)"></button>
+        <button class="cell" onclick="makeMove(1, 0)"></button>
+        <button class="cell" onclick="makeMove(1, 1)"></button>
+        <button class="cell" onclick="makeMove(1, 2)"></button>
+        <button class="cell" onclick="makeMove(2, 0)"></button>
+        <button class="cell" onclick="makeMove(2, 1)"></button>
+        <button class="cell" onclick="makeMove(2, 2)"></button>
+    </div>
+    <div id="status"></div>
+    <div class="difficulty">
+        <label for="difficulty">AI Difficulty:</label>
+        <select id="difficulty">
+            <option value="1">Easy</option>
+            <option value="2" selected>Medium</option>
+            <option value="3">Hard</option>
+        </select>
+    </div>
+    <button id="humanVsAIButton" class="bt">Human vs AI</button>
+    <button id="humanVsHumanButton" class="bt">Human vs Human</button>
+    <script src="TTT.js" ></script>
+</body>
+</html>
